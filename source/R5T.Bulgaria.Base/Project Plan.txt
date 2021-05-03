@@ -1,0 +1,11 @@
+R5T.Bulgaria.Base - Base service definitions library for Dropbox directory path related services.
+
+Service definition choices:
+
+* Keep parameterlessness on provider GetX() methods.
+* Keep stringly-typed paths.
+* Upgrade to async functionality.
+
+
+Goals
+
