@@ -1,0 +1,5 @@
+R5T.Bulgaria.Standard - Standard service aggregation library for Dropbox directory path related services.
+
+
+Goals
+

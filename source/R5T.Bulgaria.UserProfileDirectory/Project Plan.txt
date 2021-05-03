@@ -1,0 +1,9 @@
+R5T.Bulgaria.UserProfileDirectory - Default service implementations library for Dropbox directory path related services.
+
+Service implementation choices:
+
+* Avoid caching GetX() method results.
+
+
+Goals
+
