@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.Visigothia\source\R5T.Visigothia.Standard\R5T.Visigothia.Standard.csproj" />
     <ProjectReference Include="..\R5T.Bulgaria.Default\R5T.Bulgaria.Default.csproj" />
     <ProjectReference Include="..\R5T.Bulgaria.UserProfileDirectory\R5T.Bulgaria.UserProfileDirectory.csproj" />
   </ItemGroup>

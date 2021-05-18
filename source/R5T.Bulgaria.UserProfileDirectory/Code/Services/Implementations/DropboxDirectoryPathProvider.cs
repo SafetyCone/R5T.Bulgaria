@@ -14,6 +14,17 @@ namespace R5T.Bulgaria.UserProfileDirectory
         private IUserProfileDirectoryPathProvider UserProfileDirectoryPathProvider { get; set; }
 
 
+        public DropboxDirectoryPathProvider(
+            IDropboxDirectoryNameProvider dropboxDirectoryNameProvider,
+            IStringlyTypedPathOperator stringlyTypedPathOperator,
+            IUserProfileDirectoryPathProvider userProfileDirectoryPathProvider)
+        {
+            this.DropboxDirectoryNameProvider = dropboxDirectoryNameProvider;
+            this.StringlyTypedPathOperator = stringlyTypedPathOperator;
+            this.UserProfileDirectoryPathProvider = userProfileDirectoryPathProvider;
+        }
+
+
         public async Task<string> GetDropboxDirectoryPath()
         {
             var gettingUserProfileDirectoryPath = this.UserProfileDirectoryPathProvider.GetUserProfileDirectoryPath();

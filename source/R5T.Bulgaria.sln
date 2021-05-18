@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Bulgaria.Construction",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Bulgaria", "R5T.Bulgaria\R5T.Bulgaria.csproj", "{17BD20EE-7E05-4A83-9CF0-A0E0BDB5EB4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Bulgaria.Base", "R5T.Bulgaria.Base\R5T.Bulgaria.Base.csproj", "{4E8277D8-CE82-4EA2-A37B-8C73EBA8449D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Bulgaria.Base", "R5T.Bulgaria.Base\R5T.Bulgaria.Base.csproj", "{4E8277D8-CE82-4EA2-A37B-8C73EBA8449D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Bulgaria.Default", "R5T.Bulgaria.Default\R5T.Bulgaria.Default.csproj", "{3269391B-9113-4543-A16F-8C7E36A77413}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Bulgaria.Default", "R5T.Bulgaria.Default\R5T.Bulgaria.Default.csproj", "{3269391B-9113-4543-A16F-8C7E36A77413}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{4DDECD8C-3EAA-4694-B5CE-023E5F76AFC5}"
 EndProject
@@ -17,13 +17,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Dacia.Extensions", "..\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Dacia", "..\..\R5T.Dacia\source\R5T.Dacia\R5T.Dacia.csproj", "{808C184A-EF79-4B13-9B75-7CE5E1B8477D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Bulgaria.UserProfileDirectory", "R5T.Bulgaria.UserProfileDirectory\R5T.Bulgaria.UserProfileDirectory.csproj", "{2AB1A8BA-5E1B-40BE-9BA8-A37902C1BB58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Bulgaria.UserProfileDirectory", "R5T.Bulgaria.UserProfileDirectory\R5T.Bulgaria.UserProfileDirectory.csproj", "{2AB1A8BA-5E1B-40BE-9BA8-A37902C1BB58}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Visigothia.Base", "..\..\R5T.Visigothia\source\R5T.Visigothia.Base\R5T.Visigothia.Base.csproj", "{F35A779B-28C0-45A3-9524-16D01EF84CC4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Lombardy.Base", "..\..\R5T.Lombardy.Base\source\R5T.Lombardy.Base\R5T.Lombardy.Base.csproj", "{AA0836E1-B651-4886-8B15-503B6EAE238C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Bulgaria.Standard", "R5T.Bulgaria.Standard\R5T.Bulgaria.Standard.csproj", "{B9456386-64F6-4924-AA1D-27BCDBE626AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Bulgaria.Standard", "R5T.Bulgaria.Standard\R5T.Bulgaria.Standard.csproj", "{B9456386-64F6-4924-AA1D-27BCDBE626AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Visigothia.Standard", "..\..\R5T.Visigothia\source\R5T.Visigothia.Standard\R5T.Visigothia.Standard.csproj", "{76ADB57F-7588-403F-892D-7D5EA226C344}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Visigothia.Default", "..\..\R5T.Visigothia\source\R5T.Visigothia.Default\R5T.Visigothia.Default.csproj", "{A0847476-81F5-41E2-8037-8B321FA8A3DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -155,6 +159,30 @@ Global
 		{B9456386-64F6-4924-AA1D-27BCDBE626AA}.Release|x64.Build.0 = Release|Any CPU
 		{B9456386-64F6-4924-AA1D-27BCDBE626AA}.Release|x86.ActiveCfg = Release|Any CPU
 		{B9456386-64F6-4924-AA1D-27BCDBE626AA}.Release|x86.Build.0 = Release|Any CPU
+		{76ADB57F-7588-403F-892D-7D5EA226C344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76ADB57F-7588-403F-892D-7D5EA226C344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76ADB57F-7588-403F-892D-7D5EA226C344}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{76ADB57F-7588-403F-892D-7D5EA226C344}.Debug|x64.Build.0 = Debug|Any CPU
+		{76ADB57F-7588-403F-892D-7D5EA226C344}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{76ADB57F-7588-403F-892D-7D5EA226C344}.Debug|x86.Build.0 = Debug|Any CPU
+		{76ADB57F-7588-403F-892D-7D5EA226C344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76ADB57F-7588-403F-892D-7D5EA226C344}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76ADB57F-7588-403F-892D-7D5EA226C344}.Release|x64.ActiveCfg = Release|Any CPU
+		{76ADB57F-7588-403F-892D-7D5EA226C344}.Release|x64.Build.0 = Release|Any CPU
+		{76ADB57F-7588-403F-892D-7D5EA226C344}.Release|x86.ActiveCfg = Release|Any CPU
+		{76ADB57F-7588-403F-892D-7D5EA226C344}.Release|x86.Build.0 = Release|Any CPU
+		{A0847476-81F5-41E2-8037-8B321FA8A3DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0847476-81F5-41E2-8037-8B321FA8A3DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0847476-81F5-41E2-8037-8B321FA8A3DF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A0847476-81F5-41E2-8037-8B321FA8A3DF}.Debug|x64.Build.0 = Debug|Any CPU
+		{A0847476-81F5-41E2-8037-8B321FA8A3DF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A0847476-81F5-41E2-8037-8B321FA8A3DF}.Debug|x86.Build.0 = Debug|Any CPU
+		{A0847476-81F5-41E2-8037-8B321FA8A3DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0847476-81F5-41E2-8037-8B321FA8A3DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0847476-81F5-41E2-8037-8B321FA8A3DF}.Release|x64.ActiveCfg = Release|Any CPU
+		{A0847476-81F5-41E2-8037-8B321FA8A3DF}.Release|x64.Build.0 = Release|Any CPU
+		{A0847476-81F5-41E2-8037-8B321FA8A3DF}.Release|x86.ActiveCfg = Release|Any CPU
+		{A0847476-81F5-41E2-8037-8B321FA8A3DF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -164,6 +192,8 @@ Global
 		{808C184A-EF79-4B13-9B75-7CE5E1B8477D} = {4DDECD8C-3EAA-4694-B5CE-023E5F76AFC5}
 		{F35A779B-28C0-45A3-9524-16D01EF84CC4} = {4DDECD8C-3EAA-4694-B5CE-023E5F76AFC5}
 		{AA0836E1-B651-4886-8B15-503B6EAE238C} = {4DDECD8C-3EAA-4694-B5CE-023E5F76AFC5}
+		{76ADB57F-7588-403F-892D-7D5EA226C344} = {4DDECD8C-3EAA-4694-B5CE-023E5F76AFC5}
+		{A0847476-81F5-41E2-8037-8B321FA8A3DF} = {4DDECD8C-3EAA-4694-B5CE-023E5F76AFC5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B74C1D98-A1FA-4AFA-991D-2376C7A77074}
