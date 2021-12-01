@@ -4,10 +4,13 @@ using System.Threading.Tasks;
 using R5T.Lombardy;
 using R5T.Visigothia;
 
+using R5T.T0064;
+
 
 namespace R5T.Bulgaria.UserProfileDirectory
 {
-    public class DropboxDirectoryPathProvider : IDropboxDirectoryPathProvider
+    [ServiceImplementationMarker]
+    public class DropboxDirectoryPathProvider : IDropboxDirectoryPathProvider, IServiceImplementation
     {
         private IDropboxDirectoryNameProvider DropboxDirectoryNameProvider { get; set; }
         private IStringlyTypedPathOperator StringlyTypedPathOperator { get; set; }

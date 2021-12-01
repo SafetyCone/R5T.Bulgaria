@@ -2,30 +2,22 @@
 
 using Microsoft.Extensions.DependencyInjection;
 
-using R5T.Dacia;
+using R5T.T0062;
+using R5T.T0063;
 
 
 namespace R5T.Bulgaria.Default
 {
-    public static class IServiceCollectionExtensions
+    public static partial class IServiceCollectionExtensions
     {
         /// <summary>
-        /// Add the <see cref="DropboxDirectoryNameProvider"/> implementation of <see cref="IDropboxDirectoryNameProvider"/> as a <see cref="ServiceLifetime.Singleton"/>.
+        /// Adds the <see cref="DropboxDirectoryNameProvider"/> implementation of <see cref="IDropboxDirectoryNameProvider"/> as a <see cref="ServiceLifetime.Singleton"/>.
         /// </summary>
         public static IServiceCollection AddDropboxDirectoryNameProvider(this IServiceCollection services)
         {
             services.AddSingleton<IDropboxDirectoryNameProvider, DropboxDirectoryNameProvider>();
 
             return services;
-        }
-
-        /// <summary>
-        /// Add the <see cref="DropboxDirectoryNameProvider"/> implementation of <see cref="IDropboxDirectoryNameProvider"/> as a <see cref="ServiceLifetime.Singleton"/>.
-        /// </summary>
-        public static IServiceAction<IDropboxDirectoryNameProvider> AddDropboxDirectoryNameProviderAction(this IServiceCollection services)
-        {
-            var serviceAction = ServiceAction.New<IDropboxDirectoryNameProvider>(() => services.AddDropboxDirectoryNameProvider());
-            return serviceAction;
         }
     }
 }
