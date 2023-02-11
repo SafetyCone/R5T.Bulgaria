@@ -38,7 +38,7 @@ namespace R5T.Bulgaria.Standard
             var userProfileDirectoryPathProviderAction = services.AddUserProfileDirectoryPathProviderAction();
             var dropboxDirectoryNameProviderAction = services.AddDropboxDirectoryNameProviderAction();
 
-            var dropboxDirectoryPathProviderAction = UserProfileDirectory.IServiceCollectionExtensions.AddDropboxDirectoryPathProviderAction(services,
+            var dropboxDirectoryPathProviderAction = UserProfileDirectory.IServiceCollectionExtensions.AddDropboxDirectoryPathProviderAction_Old(services,
                 dropboxDirectoryNameProviderAction,
                 stringlyTypedPathOperatorAction,
                 userProfileDirectoryPathProviderAction);
